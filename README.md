@@ -1,0 +1,2 @@
+# blooket-autobuy
+Sussy code

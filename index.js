@@ -1,6 +1,5 @@
-// Run this in the dev console on the blooket website (CTRL + SHIFT + I)
 let config = {}
-config.boxName = "Breakfast Box"
+config.boxName = "Breakfast Box" //Name of the box you want to open
 
 function findObfuscatedClass(searchQuery) {
     let output = []
@@ -13,6 +12,8 @@ function findObfuscatedClass(searchQuery) {
     }
     return output
 }
+
+if (window.location.href == "https://www.blooket.com/market") {
 
 let boxes = Array.from(findObfuscatedClass("styles__box__"))
 
@@ -37,3 +38,7 @@ boxes.forEach(function(obj) {
         }
     }
 })
+}
+else {
+    alert("Make sure you are running this on shop page!")
+}

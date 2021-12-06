@@ -1,2 +1,3 @@
 # blooket-autobuy
-Sussy code
+
+uses funny code to bulk buy things from blooket.com/market

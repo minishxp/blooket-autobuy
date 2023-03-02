@@ -1,3 +1,4 @@
-# blooket-autobuy
+# <b>Blooket Autobuy</b>
 
-uses funny code to bulk buy things from blooket.com/market
+Code to bulk-buy things from https://blooket.com/market
+Very old;
